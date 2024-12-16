@@ -22,3 +22,4 @@ SpaceInEmptyParentheses: false
 Cpp11BracedListStyle: true
 SortIncludes: true
 SeparateDefinitionBlocks: Always
+NamespaceIndentation: All
