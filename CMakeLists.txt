@@ -9,6 +9,8 @@ project(sandcraft VERSION 0.1.0 LANGUAGES C CXX)
 
 add_executable(${PROJECT_NAME}
     src/main.cpp
+    src/camera.cpp
+    src/camera.hpp
 )
 
 set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 17)
